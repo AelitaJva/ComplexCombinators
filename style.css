@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+
+/*Combinators */
+.comb {
+    margin: 10px;
+    padding: 20px;
+    background-color: blueviolet;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.comb.secondComb {
+    background-color: pink;
+    text-align: center;
+}
+
+.secondComb h3 {
+    color: darkred;
+}
+
+.secondComb p {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Complex Combinators */
+p {
+    font-weight: 700;
+}
+
+.blueThanRed {
+    color: purple;
+}
+
+.blueThanRed ~ p {
+    color: red;
+}
+
+.blueThanRed + p {
+    color: green;
+}
+
